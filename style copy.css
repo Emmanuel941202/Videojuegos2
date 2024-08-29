@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 50;
+    padding: 50;
+    background-color: #f39357;
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #f6eded;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-decoration-color: rgb(3, 65, 34);
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0e0d0d;
+}
+
+/* Estilos para las secciones de juegos */
+.juego {
+    background-color: #fff;
+    padding: 20px;
+    margin: 70px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las imágenes */
+.juego img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #cfcbcb;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    border: 2px solid black;
+    padding: 20px;
+  }
+
+main {
+    font-size: 15px;
+    font-family: Courier;
+}
+h1 {font-style: inherit;
+    font-size: 65px;
+    font-family: 'Courier New';}
+
+h3 { font-family: Courier;}
+
